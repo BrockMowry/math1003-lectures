@@ -10,7 +10,7 @@ A significant digit is a digit in a number that contributes to the accuracy of a
 4. Trailing 0s are significant only if the number contains a decimal point.
 ```
 
-**accuracy**: The count of significant digits in a number.
+**accuracy**: The count of significant digits in a number.\
 **precision**: The precision of a number is the place value of the rightmost significant digit.
 
 Following those rules, what is the accuracy and precision of each of these numbers:
