@@ -117,10 +117,11 @@ This can be written out like:
 ```
 Our original value: A455
 
-1. Going from left to right, right out each digit into an equation like this:
+1. Going from left to right, write out each digit into an equation like this:
 x(5) + x(5) + x(4) + x(A[10]).
 
-2. Now, if we think of it as a for loop, i would increase with each iteration. Therefore, we are going to replace the x's with Math.pow(16, i) - like so:
+2. Now, if we think of it as a for loop, i would increase with each iteration. 
+Therefore, we are going to replace the x's with Math.pow(16, i) - like so:
 [Math.pow(16, 0) x 5] + [Math.pow(16, 1) x 5] + [Math.pow(16, 2)] + [Math.pow(16, 3) x A (10)]
 
 3. Re-write the equation so we can use simple algebra to solve it (since 16^0 is 1, just start with 5):
