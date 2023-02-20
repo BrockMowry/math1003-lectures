@@ -6,7 +6,7 @@ Computers use binary to read and comprehend data. To further understand the proc
 
 ## How to convert from binary to a decimal.
 Given 1101, convert to it's decimal counterpart:
-```
+```c#
 int convert()
 {
     string input = "1101";
@@ -77,7 +77,7 @@ After finishing with each digit, we can finalize our equation:
 
 ## How to convert a decimal to binary
 Given 45, convert it to it's binary counterpart:
-```
+```c#
 string convert()
 {
     int input = 45;
